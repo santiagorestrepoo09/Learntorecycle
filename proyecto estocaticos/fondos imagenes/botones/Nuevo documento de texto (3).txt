@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>postal.png</file>
+    <file>user.png</file>
+  </qresource>
+</RCC>
