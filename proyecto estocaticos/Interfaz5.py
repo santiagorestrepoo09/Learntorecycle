@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\interfaz5.ui'
+# Form implementation generated from reading ui file '.\interfaz6.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.2
 #
@@ -9,9 +9,15 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
+import resource
 
-
-class Ui_Form(object):
+class Ui_Form5(object):
+    def openWindow(self):
+        from Interfaz6 import Ui_Form6
+        self.window = QtWidgets.QMainWindow()
+        self.ui = Ui_Form6()
+        self.ui.setupUi(self.window)
+        self.window.show()
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(795, 347)
@@ -95,16 +101,16 @@ class Ui_Form(object):
         self.progressBar.setStyleSheet("background-color: rgb(170, 255, 0);")
         self.progressBar.setProperty("value", 65)
         self.progressBar.setObjectName("progressBar")
-        self.label_6 = QtWidgets.QLabel(Form)
-        self.label_6.setGeometry(QtCore.QRect(50, 270, 71, 51))
-        self.label_6.setStyleSheet("border-image: url(:/newPrefix/return.png);")
-        self.label_6.setText("")
-        self.label_6.setObjectName("label_6")
-        self.label_7 = QtWidgets.QLabel(Form)
-        self.label_7.setGeometry(QtCore.QRect(670, 270, 71, 51))
-        self.label_7.setStyleSheet("border-image: url(:/newPrefix/confirmar.png);")
-        self.label_7.setText("")
-        self.label_7.setObjectName("label_7")
+        self.pushButton_2 = QtWidgets.QPushButton(Form)
+        self.pushButton_2.setGeometry(QtCore.QRect(50, 270, 71, 51))
+        self.pushButton_2.setStyleSheet("border-image: url(:/newPrefix/return.png);")
+        self.pushButton_2.setText("")
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(Form)
+        self.pushButton_3.setGeometry(QtCore.QRect(680, 270, 61, 51))
+        self.pushButton_3.setStyleSheet("border-image: url(:/newPrefix/confirmar.png);")
+        self.pushButton_3.setText("")
+        self.pushButton_3.setObjectName("pushButton_3")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -113,12 +119,13 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.label_4.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#ffffff;\">Learn to recycle </span></p></body></html>"))
-        self.pushButton.setText(_translate("Form", "Select video "))
+        self.pushButton.setText(_translate("Form", "Tran"))
+
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QMainWindow()
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
+    Form5 = QtWidgets.QMainWindow()
+    ui = Ui_Form5()
+    ui.setupUi(Form5)
+    Form5.show()
     sys.exit(app.exec_())  

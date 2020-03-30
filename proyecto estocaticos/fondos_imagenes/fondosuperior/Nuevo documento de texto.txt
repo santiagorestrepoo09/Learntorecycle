@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="newPrefix">
-    <file>boton rojo.png</file>
-    <file>superio.png</file>
-  </qresource>
-</RCC>
