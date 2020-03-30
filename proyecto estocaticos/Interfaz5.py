@@ -119,7 +119,7 @@ class Ui_Form5(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.label_4.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#ffffff;\">Learn to recycle </span></p></body></html>"))
-        self.pushButton.setText(_translate("Form", "Tran"))
+        self.pushButton.setText(_translate("Form", "Train"))
 
 
 if __name__ == '__main__':

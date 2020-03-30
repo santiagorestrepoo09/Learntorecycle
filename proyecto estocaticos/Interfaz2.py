@@ -19,14 +19,14 @@ class Ui_Form1(object):
         self.ui = Ui_Form2()
         self.ui.setupUi(self.window)
         self.window.show()
-        Form1.hide()
+        
     def openWindow2(self):
         from Interfaz3 import Ui_Form3
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_Form3()
         self.ui.setupUi(self.window)
         self.window.show()
-        Form1.hide()
+       
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(760, 423)
