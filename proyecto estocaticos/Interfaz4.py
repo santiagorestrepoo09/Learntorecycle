@@ -14,9 +14,9 @@ import resource
 
 class Ui_Form4(object):
     def openWindow(self):
-        from Interfaz3 import Ui_Form3
+        from FileManager import App
         self.window = QtWidgets.QMainWindow()
-        self.ui = Ui_Form3()
+        self.ui = App()
         self.ui.setupUi(self.window)
         self.window.show()
     def setupUi(self, Form):
@@ -121,3 +121,5 @@ class Ui_Form4(object):
         Form.setWindowTitle(_translate("Form", "Form"))
         self.label_4.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#ffffff;\">Learn to recycle </span></p></body></html>"))
         self.pushButton.setText(_translate("Form", "Select video "))
+
+        self.pushButton.clicked.connect(self.openWindow)
