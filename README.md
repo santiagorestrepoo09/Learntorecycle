@@ -1,9 +1,10 @@
 # LearnToRecycle
 
 ## Members
+## David Santiago Restrepo Valencia
 ## Hairton Javier Sarmiento Yahuarcani
 ## Jhoan Sebastian Benavides Diaz
-## David Santiago Restrepo Valencia
+
 
 ### Project Goal
 ## The goal of this project is to learn to the people to recycle, because in Bogotá the people don't know to recycle.
