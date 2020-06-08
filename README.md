@@ -1,9 +1,1 @@
-# Learn To Recycle
-## Members
-### HAIRTON JAVIER SARMIENTO YAHUARCANI - 67000116
-### JHOAN SEBASTIAN BENAVIDES DIAZ - 67000169
-### DAVID SANTIAGO RESTREPO VALENCIA - 67000104
-
-# PROJECT DESCRIPTION
-### https://www.youtube.com/watch?v=a_nmItYSa6c
-
+# LearnToRecycle
