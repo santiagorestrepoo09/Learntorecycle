@@ -6,11 +6,6 @@
 ## Hairton Javier Sarmiento Yahuarcani
 ## David Santiago Restrepo Valencia
 
-## David Santiago Restrepo Valencia
-## Hairton Javier Sarmiento Yahuarcani
-## Jhoan Sebastian Benavides Diaz
-
-
 ### Project Goal
 ## The goal of this project is to teach to the people to recycle, because in Bogotá the people don't know to recycle.
 
