@@ -2,9 +2,9 @@
 
 ## Members
 
+## David Santiago Restrepo Valencia
 ## Jhoan Sebastian Benavides Diaz
 ## Hairton Javier Sarmiento Yahuarcani
-## David Santiago Restrepo Valencia
 
 ### Project Goal
 ## The goal of this project is to teach to the people to recycle, because in Bogotá the people don't know to recycle.
